@@ -1,0 +1,52 @@
+const data = [
+  {
+    id: 1,
+    question: "how many days do we have in a week?",
+    answers: [
+      { answer: "12", isCorrect: false },
+      { answer: "13", isCorrect: false },
+      { answer: "5", isCorrect: false },
+      { answer: "7", isCorrect: true },
+    ],
+  },
+  {
+    id: 1,
+    question: "how many days do we have in a year?",
+    answers: [
+      { answer: "360", isCorrect: false },
+      { answer: "364", isCorrect: false },
+      { answer: "365", isCorrect: true },
+      { answer: "400", isCorrect: false },
+    ],
+  },
+  {
+    id: 1,
+    question: "Which state is the biggest state in nigeria in terms of land?",
+    answers: [
+      { answer: "lagos", isCorrect: false },
+      { answer: "nasarawa", isCorrect: false },
+      { answer: "kogi", isCorrect: false },
+      { answer: "niger", isCorrect: true },
+    ],
+  },
+  {
+    id: 2,
+    question: "is abuja very close to lagos?",
+    answers: [
+      { answer: "i dont know", isCorrect: false },
+      { answer: "yes", isCorrect: false },
+      { answer: "no", isCorrect: true },
+      { answer: "maybe", isCorrect: false },
+    ],
+  },
+  {
+    id: 1,
+    question: "Which framework is React.js ?",
+    answers: [
+      { answer: "php", isCorrect: false },
+      { answer: "python", isCorrect: false },
+      { answer: "java", isCorrect: false },
+      { answer: "javascript", isCorrect: true },
+    ],
+  },
+];

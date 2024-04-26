@@ -1,0 +1,48 @@
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+.container {
+  display: grid;
+  place-items: center;
+  gap: 50px;
+}
+.top {
+  display: flex;
+  align-items: center;
+}
+.arrow {
+  height: 150px;
+  cursor: pointer;
+}
+.right {
+  transform: rotate(180deg);
+}
+.frame {
+  width: 600px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.slider {
+  display: flex;
+  transition: all 1s ease;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.bottom {
+  display: flex;
+  gap: 30px;
+}
+.button {
+  width: 15px;
+  height: 15px;
+  border-radius: 7.5px;
+  border: 1px solid black;
+  cursor: pointer;
+}
